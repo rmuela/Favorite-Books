@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Footer from "./Footer";
 import Header from "./Header";
 import Item from "./Item";
 import Loading from "./Loading";
@@ -44,6 +45,7 @@ class List extends Component {
                     }
                 </div>
             </div>
+           
         </React.Fragment> );
        
     }
